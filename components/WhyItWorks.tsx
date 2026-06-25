@@ -93,7 +93,6 @@ export default function WhyItWorks() {
               className="group relative flex gap-5 p-7 rounded-2xl bg-card card-border hover:shadow-card-hover transition-shadow duration-300"
               style={{ boxShadow: "0 1px 3px rgba(28,28,46,0.05), 0 4px 20px rgba(28,28,46,0.06)" }}
               whileHover={{ y: -2 }}
-              transition={{ duration: 0.25, ease: [0.22, 1, 0.36, 1] }}
             >
               <div className={`flex-shrink-0 w-10 h-10 rounded-xl ${card.bg} ${card.iconColor} flex items-center justify-center mt-0.5`}>
                 {card.icon}

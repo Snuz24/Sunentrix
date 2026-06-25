@@ -85,7 +85,6 @@ export default function Services() {
               transition={{ duration: 0.5, delay: 0.08 + i * 0.08, ease: [0.22, 1, 0.36, 1] }}
               className="group flex flex-col sm:flex-row sm:items-center gap-6 p-6 rounded-2xl bg-card card-border hover:shadow-card-hover transition-all duration-300 cursor-pointer"
               whileHover={{ x: 4 }}
-              transition={{ duration: 0.22 }}
             >
               {/* Number + icon */}
               <div
