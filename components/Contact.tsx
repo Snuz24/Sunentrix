@@ -3,7 +3,7 @@
 import { useRef } from "react";
 import { motion, useInView } from "framer-motion";
 
-const EMAIL = "sneha.jay@sunentrix.cfd";
+const EMAIL = "snehajayb1@gmail.com";
 const LINKEDIN = "https://www.linkedin.com/in/sneha-jayabhaye-253b27280/";
 
 const steps = [
