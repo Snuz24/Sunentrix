@@ -16,7 +16,7 @@ export default function Footer() {
               <span className="text-[15px] font-semibold tracking-tight text-text-primary">Sunentrix</span>
             </div>
             <p className="text-[12.5px] text-text-muted max-w-xs text-center md:text-left leading-relaxed">
-              AI Product Storytelling Studio · Turning complex AI products into stories that drive adoption. Founded &amp; led by Sneha Jayabhaye.
+              UGC for AI companies · Creator-style product demos, founder videos, testimonials, and launch content. Founded &amp; led by Sneha Jayabhaye.
             </p>
           </div>
 

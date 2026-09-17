@@ -5,7 +5,7 @@ import { motion, useInView } from "framer-motion";
 
 const items = [
   {
-    title: "Story-Driven UGC",
+    title: "UGC Video Ads",
     description: "Authentic, scroll-stopping creator-style videos that make your AI product feel real, relatable, and worth trying.",
     icon: (
       <svg className="w-5 h-5" fill="none" viewBox="0 0 20 20">
@@ -15,8 +15,8 @@ const items = [
     ),
   },
   {
-    title: "Product Demo Videos",
-    description: "Clear walkthroughs that show exactly what your product does and why it matters — without the jargon or confusion.",
+    title: "UGC Product Demos",
+    description: "Creator-style walkthroughs that show exactly what your product does and why it matters — without the jargon or confusion.",
     icon: (
       <svg className="w-5 h-5" fill="none" viewBox="0 0 20 20">
         <rect x="2.5" y="4" width="15" height="10" rx="2" stroke="currentColor" strokeWidth="1.4" />
@@ -25,8 +25,8 @@ const items = [
     ),
   },
   {
-    title: "Founder Storytelling",
-    description: "Human-first videos that put your voice and vision front and center, building the trust that turns viewers into believers.",
+    title: "Founder UGC & Storytelling",
+    description: "Human-first, talking-to-camera videos that put your voice and vision front and center, building the trust that turns viewers into believers.",
     icon: (
       <svg className="w-5 h-5" fill="none" viewBox="0 0 20 20">
         <path d="M10 2a3.5 3.5 0 100 7 3.5 3.5 0 000-7zM4 17a6 6 0 0112 0" stroke="currentColor" strokeWidth="1.4" strokeLinecap="round" />
@@ -81,11 +81,18 @@ export default function WhatWeCreate() {
         >
           <p className="section-label mb-4">What We Create</p>
           <h2 className="text-[2rem] sm:text-[2.6rem] font-bold tracking-tightest text-gradient-warm leading-tight mb-5">
-            Everything You Need to Tell Your Product's Story.
+            Every Kind of UGC Your AI Product Needs.
           </h2>
-          <p className="text-[15.5px] text-text-secondary leading-relaxed">
-            Six kinds of content, all built for AI companies. Whatever stage you're at — launching, growing, or explaining something new — there's a format for it.
+          <p className="text-[15.5px] text-text-secondary leading-relaxed mb-6">
+            Six creator-style UGC formats, all built for AI companies. Whatever stage you're at — launching, growing, or explaining something new — there's a format for it.
           </p>
+          <div className="flex flex-wrap items-center justify-center gap-2">
+            {["TikTok", "Instagram Reels", "YouTube Shorts", "Paid Social"].map((p) => (
+              <span key={p} className="px-3 py-1 rounded-full bg-accent-light text-accent text-[12px] font-medium">
+                {p}
+              </span>
+            ))}
+          </div>
         </motion.div>
 
         {/* Cards */}

@@ -42,7 +42,7 @@ export default function Navbar() {
             </div>
             <span className="flex items-baseline gap-1.5">
               <span className="text-[15px] font-semibold tracking-tight text-text-primary">Sunentrix</span>
-              <span className="hidden sm:inline text-[10.5px] font-medium tracking-wide text-text-muted">Storytelling Studio</span>
+              <span className="hidden sm:inline text-[10.5px] font-medium tracking-wide text-text-muted">UGC for AI</span>
             </span>
           </a>
 

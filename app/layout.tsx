@@ -3,13 +3,13 @@ import { Analytics } from "@vercel/analytics/react";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Sunentrix — AI Product Storytelling Studio",
+  title: "Sunentrix — UGC for AI Companies",
   description:
-    "Sunentrix is a boutique AI Product Storytelling Studio. We help AI startups turn complex products into story-driven content that drives understanding, trust, and adoption.",
+    "Sunentrix creates scroll-stopping UGC for AI companies — product demos, founder videos, testimonials, and launch content that makes AI products feel real, build trust, and get people to try them.",
   openGraph: {
-    title: "Sunentrix — AI Product Storytelling Studio",
+    title: "Sunentrix — UGC for AI Companies",
     description:
-      "A boutique studio helping AI startups communicate complex products through story-driven content that builds understanding, trust, and adoption.",
+      "Authentic, creator-style UGC for AI startups — product demos, founder stories, testimonials, and launch videos that drive understanding, trust, and sign-ups.",
     type: "website",
   },
 };

@@ -4,10 +4,10 @@ import { motion } from "framer-motion";
 import CreatorImage from "./CreatorImage";
 
 const serviceChips = [
-  "Story-Driven UGC",
+  "UGC Video Ads",
   "Product Demos",
   "Founder Videos",
-  "Launch Campaigns",
+  "Testimonials & Launches",
 ];
 
 const logos = ["Replit", "Claude", "Claude Code", "ChatGPT"];
@@ -41,7 +41,7 @@ export default function Hero() {
             className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-accent-light border border-accent-mid/50 text-[12px] font-semibold text-accent mb-8"
           >
             <span className="w-1.5 h-1.5 rounded-full bg-accent" />
-            Sunentrix · AI Product Storytelling Studio
+            Sunentrix · UGC Creator for AI Products
           </motion.div>
 
           {/* Headline */}
@@ -51,7 +51,7 @@ export default function Hero() {
             transition={{ duration: 0.7, delay: 0.18, ease: [0.22, 1, 0.36, 1] }}
             className="text-[2.6rem] sm:text-[3.4rem] lg:text-[4rem] font-bold tracking-tightest leading-[1.08] text-gradient-warm mb-5"
           >
-            We Create Story-Driven Content for{" "}
+            Scroll-Stopping UGC for{" "}
             <span className="text-gradient-accent">AI Companies.</span>
           </motion.h1>
 
@@ -62,7 +62,7 @@ export default function Hero() {
             transition={{ duration: 0.6, delay: 0.34, ease: [0.22, 1, 0.36, 1] }}
             className="text-[16px] sm:text-[17.5px] leading-relaxed text-text-secondary mb-7 max-w-xl"
           >
-            Sunentrix is a boutique studio making UGC, product demos, founder videos, and launch campaigns for AI startups — so the right people understand your product, trust it, and start using it.
+            Sunentrix creates authentic, creator-style UGC for AI startups — product demos, founder videos, testimonials, and launch content that make your product feel real, build trust, and get people to actually try it.
           </motion.p>
 
           {/* Service chips — instant scan of what we offer */}
@@ -115,7 +115,7 @@ export default function Hero() {
             className="mt-14 pt-8 border-t border-border"
           >
             <p className="text-[11.5px] font-medium text-text-muted uppercase tracking-widest mb-4">
-              Products we've told stories for
+              UGC created for AI products like
             </p>
             <div className="flex flex-wrap items-center gap-x-6 gap-y-2">
               {logos.map((logo) => (
@@ -144,7 +144,7 @@ export default function Hero() {
             {/* Floating badge */}
             <div className="absolute bottom-5 left-5 right-5 glass-warm rounded-xl px-4 py-3" style={{ boxShadow: "0 2px 12px rgba(28,28,46,0.10)" }}>
               <p className="text-[13px] font-semibold text-text-primary">Sneha Jayabhaye</p>
-              <p className="text-[11.5px] text-text-secondary mt-0.5">Founder &amp; Creative Director, Sunentrix</p>
+              <p className="text-[11.5px] text-text-secondary mt-0.5">UGC Creator · Founder of Sunentrix</p>
             </div>
           </div>
         </motion.div>
